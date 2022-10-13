@@ -3,7 +3,7 @@ version: 2.1
 commands:
   print_pipeline_id:
     steps:
-      - run: echo ${MY_Hassan}
+      - run: echo "Hassan"
 
 jobs:
   my_job:
